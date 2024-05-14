@@ -1,17 +1,3 @@
-import MainCouter from "./MainCouter";
-
-export default function Home() {
-
-  return (
-    <div className="m-2">
-      <MainCouter/>
-    </div>
-  );
-}
-
-
-
-
 // export async function getStaticProps() {
 
 //   const res = await fetch('https://fakestoreapi.com/products')
@@ -25,3 +11,14 @@ export default function Home() {
 // }
 
 
+// export default function products({ products }) {
+//     return (
+//       <ul>
+//         {products.map((product) => (
+//           <li>{product.price}</li>
+//         ))}
+//       </ul>
+//     )
+//   }
+   
+  
